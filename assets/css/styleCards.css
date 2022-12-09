@@ -1,0 +1,52 @@
+.creditos{
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    left: 1rem;
+
+    display: none;
+
+    background-color: #242424;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.466);
+
+    text-align: justify;
+    transition: 1s;opacity: 0;
+}
+.legends-card h2{
+    padding: 0.5rem;
+    background-color: #3b3b3bc0;
+    border-radius: 0.5rem;
+}
+.legends-card p {
+    padding: 0.5rem;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+#discord{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0.8rem 2rem;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #8600ff;
+    color: #fff;
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.466);
+
+    font-weight: 900;
+    font-size: 15px;
+    transition: 500ms all;
+}
+#discord:hover{
+    background-color: #fff;
+    color: #8600ff;
+}
+
+.creditos.active{display: block; transition: 1s;opacity: 1;}

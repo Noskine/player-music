@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/styleCards.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <title>Player Music</title>
+</head>
+<body onload="loading()">
+    <!--Card Creditos-->
+    <section class="creditos" id="openCardCredits">
+        <article class="legends-card">
+            <h2>Créditos</h2>
+            <p></p>
+            <button id="discord">Discord</button>
+        </article>
+    </section>
+
+    <!--Main-->
+    <main id="content" class="content">
+
+        <!--Parte superior-->
+        <div class="boll">
+            <span></span>
+            <span onclick="clickAlert()"></span>
+            <span onclick="ClickOn()"></span>
+        </div>
+        <!--Shape Animation-->
+        <div class="bars">
+           <div class="content-barras">
+            <span class="barras"></span>
+            <span class="barras"></span>
+            <span class="barras"></span>
+            <span class="barras"></span>
+           </div>
+        </div>
+
+        <!--Shape Inferior-->
+        <div class="audio">
+            <div class="discricao">
+                <h4 id="title">Artista</h4>
+                <p id="musica">Nome da Musica</p>
+            </div>
+            <div class="progress">
+                <div class="barra-deaudio"></div>
+                <div class="timer">
+                    <span class="start">0:20</span>
+                    <span class="end">4:20</span>
+                </div>
+            </div>
+            <div class="menu-controls">
+                
+                <span class="material-symbols-outlined" id="anterior">
+                        skip_previous
+                    </span><span class="material-symbols-outlined" id="play">
+                    play_arrow
+                    </span>
+                    <span class="material-symbols-outlined" id="pause">
+                        pause
+                    </span>
+                    
+                <span class="material-symbols-outlined" id="proximo">
+                        skip_next
+                    </span>
+                
+            </div>
+        </div>
+
+        <!--Audios-->
+        <audio>
+            <source src="assets/musics/Teto - M4.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+    
+    <script src="./assets/cards.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>
