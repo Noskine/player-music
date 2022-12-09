@@ -7,12 +7,12 @@ let musicas = [
     {
     artista: 'WANT YOU', 
     titulo: 'Vendredi & Sterkøl', 
-    src: './assets/musics/Want You.mp3'},
+    src: '/assets/musics/Want You.mp3'},
 
     {
     artista: "I'M JUST GOOD", 
     titulo: 'Johny Grimes', 
-    src: './assets/musics/Im Just.mp3'
+    src: '/assets/musics/Im Just.mp3'
     },
 
 ];
