@@ -2,7 +2,7 @@ let musicas = [
     {
     artista: 'M4 GRINTANDO MEU NOME', 
     titulo: 'Teto - feat Matuê', 
-    src: '/assets/musics/Teto - M4.mp3'},
+    src: './assets/musics/Teto - M4.mp3'},
 
     {
     artista: 'WANT YOU', 
